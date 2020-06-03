@@ -9,3 +9,11 @@ spring:
           username: word000000
           password: Gqm123456789
           default-label: master #配置文件分支
+    bus:
+      trace:
+        enabled: true     # 开启cloud bus的跟踪
+      rabbitmq:
+        host: localhost
+        port: 15672
+        username: guest
+        password: guest
