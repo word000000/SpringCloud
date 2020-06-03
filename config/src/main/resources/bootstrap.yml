@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: service-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/word000000/repository.git
+          username: word000000
+          password: Gqm123456789
+          default-label: master #配置文件分支
